@@ -1,0 +1,4 @@
+Log file created at: 2018/08/01 01:32:51
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0801 01:32:51.033607  2212 net_test.cc:63] 192.168.31.237

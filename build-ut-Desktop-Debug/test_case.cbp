@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="test_case"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/liujun/Ambr/build-ut-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/build-ut-Desktop-Debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/build-ut-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/build-ut-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/build-ut-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/liujun/Ambr/build-ut-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/build-ut-Desktop-Debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/build-ut-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/build-ut-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/build-ut-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_case">
+				<Option output="/home/liujun/Ambr/build-ut-Desktop-Debug/test_case" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liujun/Ambr/build-ut-Desktop-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liujun/Ambr/ut/../src"/>
+					<Add directory="/home/liujun/Ambr/ut/../libs/crow/include"/>
+					<Add directory="/home/liujun/Ambr/ut/../libs/leveldb/include"/>
+					<Add directory="/home/liujun/Ambr/ut/../libs"/>
+					<Add directory="/home/liujun/Ambr/ut/../arch/linux"/>
+					<Add directory="/home/liujun/Ambr/ut/../libs/rocksdb/include"/>
+					<Add directory="/home/liujun/Ambr/ut/../libs/glog/src"/>
+					<Add directory="/home/liujun/Ambr/ut/../src/p2p"/>
+					<Add directory="/home/liujun/Ambr/ut/../libs/protobuf/src"/>
+					<Add directory="/home/liujun/Ambr/ut/../ut/googletest/googletest/include"/>
+					<Add directory="/home/liujun/Ambr/ut/../ut/googletest/googlemock/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/build-ut-Desktop-Debug/Makefile&quot;  VERBOSE=1 test_case"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/build-ut-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/build-ut-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/build-ut-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_case/fast">
+				<Option output="/home/liujun/Ambr/build-ut-Desktop-Debug/test_case" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liujun/Ambr/build-ut-Desktop-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liujun/Ambr/ut/../src"/>
+					<Add directory="/home/liujun/Ambr/ut/../libs/crow/include"/>
+					<Add directory="/home/liujun/Ambr/ut/../libs/leveldb/include"/>
+					<Add directory="/home/liujun/Ambr/ut/../libs"/>
+					<Add directory="/home/liujun/Ambr/ut/../arch/linux"/>
+					<Add directory="/home/liujun/Ambr/ut/../libs/rocksdb/include"/>
+					<Add directory="/home/liujun/Ambr/ut/../libs/glog/src"/>
+					<Add directory="/home/liujun/Ambr/ut/../src/p2p"/>
+					<Add directory="/home/liujun/Ambr/ut/../libs/protobuf/src"/>
+					<Add directory="/home/liujun/Ambr/ut/../ut/googletest/googletest/include"/>
+					<Add directory="/home/liujun/Ambr/ut/../ut/googletest/googlemock/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/build-ut-Desktop-Debug/Makefile&quot;  VERBOSE=1 test_case/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/build-ut-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/build-ut-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/build-ut-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/liujun/Ambr/build-ut-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/build-ut-Desktop-Debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/build-ut-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/build-ut-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/build-ut-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/liujun/Ambr/arch/linux/platform.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/arch/linux/platform.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/net_test.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/net_test.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/libs/ed25519-donna/ed25519.c">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/libs/ed25519-donna/ed25519.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/core/key.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/core/key.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/core/node.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/core/node.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/core/unit.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/core/unit.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/crypto/blake2/blake2b.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/addrdb.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/addrdb.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/addrman.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/addrman.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/arith_uint256.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/arith_uint256.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/bloom.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/bloom.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/chainparams.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/chainparams.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/chainparamsbase.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/chainparamsbase.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/compat/glibc_compat.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/compat/glibc_sanity.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/compat/glibcxx_sanity.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/compat/strnlen.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/aes.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/aes.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/chacha20.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/chacha20.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/hmac_sha256.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/hmac_sha256.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/hmac_sha512.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/hmac_sha512.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/ripemd160.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/ripemd160.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/sha1.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/sha1.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/sha256.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/sha256.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/sha256_avx2.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/sha256_shani.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/sha256_sse4.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/sha256_sse41.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/sha512.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/sha512.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/fs.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/fs.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/hash.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/hash.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/init.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/init.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/logging.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/logging.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/net.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/net.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/net_processing.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/net_processing.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/netaddress.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/netaddress.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/netbase.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/netbase.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/protocol.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/protocol.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/random.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/random.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/scheduler.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/scheduler.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/shutdown.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/shutdown.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/support/cleanse.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/support/cleanse.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/support/lockedpool.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/support/lockedpool.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/sync.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/sync.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/threadinterrupt.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/threadinterrupt.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/timedata.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/timedata.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/uint256.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/uint256.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/util.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/util.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/utilstrencodings.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/utilstrencodings.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/utiltime.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/utiltime.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/proto/unit.pb.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/server/ambrd.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/server/ambrd.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/server/server_interface.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/server/server_interface.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/store/store_manager.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/store/store_manager.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/store/unit_store.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/store/unit_store.h">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/ut/cases/cryptotest.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/ut/cases/keytest.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/ut/cases/main.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/ut/cases/unit.cc">
+			<Option target="test_case"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/ut/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

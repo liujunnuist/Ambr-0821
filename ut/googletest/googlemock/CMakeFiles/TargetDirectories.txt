@@ -1,0 +1,8 @@
+/home/liujun/Ambr/ut/googletest/googlemock/CMakeFiles/edit_cache.dir
+/home/liujun/Ambr/ut/googletest/googlemock/CMakeFiles/rebuild_cache.dir
+/home/liujun/Ambr/ut/googletest/googlemock/CMakeFiles/gmock.dir
+/home/liujun/Ambr/ut/googletest/googlemock/CMakeFiles/gmock_main.dir
+/home/liujun/Ambr/ut/googletest/googlemock/gtest/CMakeFiles/rebuild_cache.dir
+/home/liujun/Ambr/ut/googletest/googlemock/gtest/CMakeFiles/gtest.dir
+/home/liujun/Ambr/ut/googletest/googlemock/gtest/CMakeFiles/edit_cache.dir
+/home/liujun/Ambr/ut/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir

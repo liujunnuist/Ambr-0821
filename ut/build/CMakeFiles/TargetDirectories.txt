@@ -1,0 +1,3 @@
+/home/liujun/Ambr/ut/build/CMakeFiles/rebuild_cache.dir
+/home/liujun/Ambr/ut/build/CMakeFiles/test_case.dir
+/home/liujun/Ambr/ut/build/CMakeFiles/edit_cache.dir

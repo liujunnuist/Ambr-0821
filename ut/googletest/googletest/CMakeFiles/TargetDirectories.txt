@@ -1,0 +1,4 @@
+/home/liujun/Ambr/ut/googletest/googletest/CMakeFiles/rebuild_cache.dir
+/home/liujun/Ambr/ut/googletest/googletest/CMakeFiles/gtest.dir
+/home/liujun/Ambr/ut/googletest/googletest/CMakeFiles/edit_cache.dir
+/home/liujun/Ambr/ut/googletest/googletest/CMakeFiles/gtest_main.dir

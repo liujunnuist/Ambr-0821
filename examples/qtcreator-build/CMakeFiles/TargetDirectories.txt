@@ -1,0 +1,4 @@
+/home/liujun/Ambr/examples/qtcreator-build/CMakeFiles/rebuild_cache.dir
+/home/liujun/Ambr/examples/qtcreator-build/CMakeFiles/unit_store_example.dir
+/home/liujun/Ambr/examples/qtcreator-build/CMakeFiles/edit_cache.dir
+/home/liujun/Ambr/examples/qtcreator-build/CMakeFiles/unit_store_example_autogen.dir

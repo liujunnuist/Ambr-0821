@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+9e5132c713881066c90e151f0a2a7d8f CMakeFiles/unit_store_example_autogen
+a42849cec03ab353d726b1f9c94e400e moc_store_example_main_widget.cpp
+6b7a9e42657f0ecc7e106db8afbd5d5c ui_store_example_main_widget.h

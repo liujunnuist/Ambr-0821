@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="unit_store_example"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/liujun/Ambr/examples/qtcreator-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/examples/qtcreator-build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/examples/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/examples/qtcreator-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/examples/qtcreator-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/liujun/Ambr/examples/qtcreator-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/examples/qtcreator-build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/examples/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/examples/qtcreator-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/examples/qtcreator-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unit_store_example">
+				<Option output="/home/liujun/Ambr/examples/qtcreator-build/unit_store_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liujun/Ambr/examples/qtcreator-build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add directory="/home/liujun/Ambr/examples/qtcreator-build"/>
+					<Add directory="/home/liujun/Ambr/examples"/>
+					<Add directory="/home/liujun/Ambr/examples/qtcreator-build/unit_store_example_autogen/include"/>
+					<Add directory="/home/liujun/Ambr/examples/../src"/>
+					<Add directory="/home/liujun/Ambr/examples/../libs/crow/include"/>
+					<Add directory="/home/liujun/Ambr/examples/../libs/leveldb/include"/>
+					<Add directory="/home/liujun/Ambr/examples/../libs"/>
+					<Add directory="/home/liujun/Ambr/examples/../arch/linux"/>
+					<Add directory="/home/liujun/Ambr/examples/../libs/rocksdb/include"/>
+					<Add directory="/home/liujun/Ambr/examples/../libs/glog/src"/>
+					<Add directory="/home/liujun/Ambr/examples/../src/p2p"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/examples/qtcreator-build/Makefile&quot;  VERBOSE=1 unit_store_example"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/examples/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/examples/qtcreator-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/examples/qtcreator-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unit_store_example/fast">
+				<Option output="/home/liujun/Ambr/examples/qtcreator-build/unit_store_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liujun/Ambr/examples/qtcreator-build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add directory="/home/liujun/Ambr/examples/qtcreator-build"/>
+					<Add directory="/home/liujun/Ambr/examples"/>
+					<Add directory="/home/liujun/Ambr/examples/qtcreator-build/unit_store_example_autogen/include"/>
+					<Add directory="/home/liujun/Ambr/examples/../src"/>
+					<Add directory="/home/liujun/Ambr/examples/../libs/crow/include"/>
+					<Add directory="/home/liujun/Ambr/examples/../libs/leveldb/include"/>
+					<Add directory="/home/liujun/Ambr/examples/../libs"/>
+					<Add directory="/home/liujun/Ambr/examples/../arch/linux"/>
+					<Add directory="/home/liujun/Ambr/examples/../libs/rocksdb/include"/>
+					<Add directory="/home/liujun/Ambr/examples/../libs/glog/src"/>
+					<Add directory="/home/liujun/Ambr/examples/../src/p2p"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/examples/qtcreator-build/Makefile&quot;  VERBOSE=1 unit_store_example/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/examples/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/examples/qtcreator-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/examples/qtcreator-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/liujun/Ambr/examples/qtcreator-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/examples/qtcreator-build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/examples/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/examples/qtcreator-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/examples/qtcreator-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unit_store_example_autogen">
+				<Option working_dir="/home/liujun/Ambr/examples/qtcreator-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/examples/qtcreator-build/Makefile&quot;  VERBOSE=1 unit_store_example_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/examples/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/examples/qtcreator-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liujun/Ambr/examples/qtcreator-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/liujun/Ambr/arch/linux/platform.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/arch/linux/platform.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/net_test.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/net_test.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/qtcreator-build/moc_store_example_main_widget.cpp">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/qtcreator-build/moc_store_example_main_widget.cpp.rule">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/qtcreator-build/unit_store_example_autogen/mocs_compilation.cpp">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/store_example_main_widget.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/store_example_main_widget.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/store_example_main_widget.ui">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/unit_store.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/libs/ed25519-donna/ed25519.c">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/libs/ed25519-donna/ed25519.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/core/key.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/core/key.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/core/node.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/core/node.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/core/unit.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/core/unit.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/crypto/blake2/blake2b.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/addrdb.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/addrdb.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/addrman.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/addrman.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/arith_uint256.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/arith_uint256.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/chainparams.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/chainparams.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/chainparamsbase.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/chainparamsbase.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/compat/glibc_compat.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/compat/glibc_sanity.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/compat/glibcxx_sanity.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/compat/strnlen.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/aes.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/aes.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/chacha20.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/chacha20.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/hmac_sha256.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/hmac_sha256.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/hmac_sha512.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/hmac_sha512.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/ripemd160.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/ripemd160.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/sha1.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/sha1.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/sha256.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/sha256.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/sha256_avx2.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/sha256_shani.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/sha256_sse4.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/sha256_sse41.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/sha512.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/crypto/sha512.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/fs.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/fs.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/hash.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/hash.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/init.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/init.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/logging.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/logging.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/net.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/net.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/net_processing.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/net_processing.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/netaddress.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/netaddress.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/netbase.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/netbase.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/protocol.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/protocol.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/random.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/random.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/scheduler.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/scheduler.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/shutdown.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/shutdown.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/support/cleanse.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/support/cleanse.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/support/lockedpool.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/support/lockedpool.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/sync.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/sync.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/threadinterrupt.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/threadinterrupt.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/timedata.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/timedata.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/uint256.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/uint256.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/util.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/util.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/utilstrencodings.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/utilstrencodings.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/utiltime.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/p2p/utiltime.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/server/ambrd.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/server/ambrd.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/server/server_interface.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/server/server_interface.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/store/store_manager.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/store/store_manager.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/store/unit_store.cc">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/src/store/unit_store.h">
+			<Option target="unit_store_example"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/liujun/Ambr/examples/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

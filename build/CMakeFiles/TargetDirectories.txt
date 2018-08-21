@@ -1,0 +1,3 @@
+/home/liujun/Ambr/build/CMakeFiles/rebuild_cache.dir
+/home/liujun/Ambr/build/CMakeFiles/Ambr.dir
+/home/liujun/Ambr/build/CMakeFiles/edit_cache.dir

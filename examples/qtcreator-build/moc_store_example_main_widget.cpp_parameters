@@ -1,0 +1,13 @@
+-I/home/liujun/Ambr/examples/../src
+-I/home/liujun/Ambr/examples/../libs/crow/include
+-I/home/liujun/Ambr/examples/../libs/leveldb/include
+-I/home/liujun/Ambr/examples/../libs
+-I/home/liujun/Ambr/examples/../arch/linux
+-I/home/liujun/Ambr/examples/../libs/rocksdb/include
+-I/home/liujun/Ambr/examples/../libs/glog/src
+-I/home/liujun/Ambr/examples/../src/p2p
+-I/home/liujun/Ambr/examples
+-I/home/liujun/Ambr/examples/qtcreator-build
+-o
+/home/liujun/Ambr/examples/qtcreator-build/moc_store_example_main_widget.cpp
+/home/liujun/Ambr/examples/store_example_main_widget.h
